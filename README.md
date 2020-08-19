@@ -12,3 +12,5 @@ This organization contains the following repositories:
 | [experiments](https://github.com/VU-Thesis-2019-2020-Wesley-Shann/experiments)    | Contains all configuration and files use to run the experiment and generated from it.                                                                                                                                                              |
 | [NAPPA](https://github.com/VU-Thesis-2019-2020-Wesley-Shann/NAPPA)          | Contains a fork from the [S2-Group](https://github.com/S2-group) [NAPPA](https://github.com/S2-group/NAPPA) repository. All modifications to NAPPA were implemented here and merged back to the parent repository. All injected logging statements were implemented here and not merged back to the parent repository. |
 | [subjects](subjects)       | Contains the source code from all subjects, both the original and modified versions used for the experiments.                                                                                                                                      |
+
+A more detailed description is provided in each repository.
