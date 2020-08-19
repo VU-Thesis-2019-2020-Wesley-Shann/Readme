@@ -21,17 +21,17 @@ A more detailed description is provided in each repository.
 
 ### Context
 
-In the past years, several solutions were implemented and researches conducted to reduce user perceived-latency. The most common approach to achieve this is via prefetching and caching techniques. However, studies show that the prefetch of network requests must be done with cautious. If prefetches are performed unrestrictedly, an undesirable runtime overhead can be intro- duced to the mobile device resources (e.g., CPU, memory, battery, bandwidth, etc.). This thesis focuses on the NAPPA framework, a Navigation Aware, Per- sonalized, Prefetching technique for Android.
+In the past years, several solutions were implemented and researches conducted to reduce user perceived-latency. The most common approach to achieve this is via prefetching and caching techniques. However, studies show that the prefetch of network requests must be done with cautious. If prefetches are performed unrestrictedly, an undesirable runtime overhead can be introduced to the mobile device resources (e.g., CPU, memory, battery, bandwidth, etc.). This thesis focuses on the NAPPA framework, a Navigation Aware, Personalized, Prefetching technique for Android.
 
 ### Goal
 
-This thesis proposes to improve NAPPA’s quality, in terms of correct- ness, usability, readability and maintainability. These improvements are moti- vated to facilitate the NAPPA technique usage in practice and contributing to future development and research.
-Moreover, an empirical evaluation is performed to assess the NAPPA’s per- formance to provide a precise vision of the cost-benefit trade-off provided by NAPPA.
+This thesis proposes to improve NAPPA’s quality, in terms of correctness, usability, readability and maintainability. These improvements are motivated to facilitate the NAPPA technique usage in practice and contributing to future development and research.
+Moreover, an empirical evaluation is performed to assess the NAPPA’s performance to provide a precise vision of the cost-benefit trade-off provided by NAPPA.
 
 ### Method
 
-NAPPA is enhanced in a 3 step approach: identity, select and im- plement. Points of improvement are identified by using NAPPA, exploring its source code and  comparing its features with similar solutions in the liter- ature. Based on a cost-benefit analysis, some improvements are selected for implementation.
-The empirical evaluation is designed to assess NAPPA’s performance in terms of runtime overhead, user perceived-latency reduction, accuracy and predic- tion duration. A total of 7 real-world open-source applications are selected for this evaluation. 3 versions of the apps are considered: a baseline version without prefetching and 2 NAPPA-enabled versions, each containing a different prefetching strategy. A user navigation flow is defined to automatic interact with the applications. A total of 630 runs are performed, 30 per app and version combination.
+NAPPA is enhanced in a 3 step approach: identity, select and implement. Points of improvement are identified by using NAPPA, exploring its source code and  comparing its features with similar solutions in the literature. Based on a cost-benefit analysis, some improvements are selected for implementation.
+The empirical evaluation is designed to assess NAPPA’s performance in terms of runtime overhead, user perceived-latency reduction, accuracy and prediction duration. A total of 7 real-world open-source applications are selected for this evaluation. 3 versions of the apps are considered: a baseline version without prefetching and 2 NAPPA-enabled versions, each containing a different prefetching strategy. A user navigation flow is defined to automatic interact with the applications. A total of 630 runs are performed, 30 per app and version combination.
 
 ### Results
 
@@ -41,4 +41,4 @@ Overall, a low number of prefetches is performed, resulting in assessing NAPPA i
 
 ### Conclusion
 
-This thesis improved the quality of NAPPA and established evidence that NAPPA introduces minimal cost in exchange of reduced user- perceived latency. However, further investigation showed that NAPPA’s cur- rent value lies within its caching capabilities rather than its prefetching capa- bilities.
+This thesis improved the quality of NAPPA and established evidence that NAPPA introduces minimal cost in exchange of reduced userperceived latency. However, further investigation showed that NAPPA’s current value lies within its caching capabilities rather than its prefetching capabilities.
